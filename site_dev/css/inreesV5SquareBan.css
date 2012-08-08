@@ -1,0 +1,88 @@
+/* CSS BANNIERE */
+
+/* Class : *exemple* t3s1 => template3size1 (size1 > size2) */
+
+.t1s1 {
+	overflow: hidden;
+	width: 990px; /* 986px */
+	height: 348px; /* 344px */
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	background: no-repeat;
+}
+
+.t1s1:hover {
+	background: 0px -348px no-repeat;
+}
+
+.t3s1 {
+	overflow: hidden;
+	width: 660px; /* 658px */
+	height: 348px; /* 346px */
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	background: no-repeat;
+}
+
+.t3s1:hover {
+	background: 0px -348px no-repeat;
+}
+
+.t3s2 {
+	overflow: hidden;
+	width: 330px; /* 328px */
+	height: 174px; /* 172px */
+	background-color: #99ccff;
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	background: no-repeat;
+}
+
+.t3s2:hover {
+	background: 0px -174px no-repeat;
+}
+
+.t6s1 {
+	overflow: hidden;
+	width: 495px; /* 491px */
+	height: 348px; /* 344px */
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	background: no-repeat;
+}
+
+.t6s1:hover {
+	background: 0px -348px no-repeat;
+}
+
+.t6s2 {
+	overflow: hidden;
+	width: 250px; /* 246px */
+	height: 174px; /* 170px */
+	background-color: #99ccff;
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+	background: no-repeat;
+}
+
+.t6s2:hover {
+	background: 0px -174px no-repeat;
+}
+
+.t6s3 {
+	overflow: hidden;
+	width: 245px; /* 241px */
+	height: 116px; /* 112px */
+	float: left;
+	border: 0px solid #FFFFFF;
+	margin: 0px;
+}
+
+.t6s3:hover {
+	background: 0px -116px no-repeat;
+}

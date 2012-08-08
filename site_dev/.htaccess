@@ -1,0 +1,16 @@
+suPHP_ConfigPath /home/inrees/etc
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule   ^Accueil$   index.php  [L]
+RewriteRule   ^accueil$   index.php  [L]
+RewriteRule   ^Profil$   profil.php  [L]
+RewriteRule   ^profil$   profil.php  [L]
+RewriteRule   ^Login$   login.php  [L]
+RewriteRule   ^login$   login.php  [L]
+RewriteRule   ^Admin$   admin.php  [L]
+RewriteRule   ^admin$   admin.php  [L]
+RewriteRule   ^Boutique$   boutique.php  [L]
+RewriteRule   ^boutique$   boutique.php  [L]
+RewriteRule   ^Panier$   panier.php  [L]
+RewriteRule   ^panier$   panier.php  [L]

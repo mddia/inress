@@ -1,0 +1,28 @@
+/* Boutique */
+
+input[type=button] {
+	cursor: pointer;
+}
+
+.itemType, .itemPrice {
+	font-weight: bold;
+}
+
+.itemBox {
+	width: 180px;
+	height: 160px;
+	background-color: #EEEEEE;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.itemDescription {
+	width: 180px;
+	height: 46px;
+	color: #999999;
+	font-style: italic;
+	overflow: hidden;
+}
+

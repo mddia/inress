@@ -1,0 +1,1 @@
+<link rel="shortcut icon" href="http://medias.inrees.com/img/graphics/v4/favicon-inrees.png" />

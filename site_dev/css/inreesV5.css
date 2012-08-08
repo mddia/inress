@@ -1,0 +1,1063 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	font-family:Arial, Helvetica, Verdana;
+	font-size:12px;
+	color:#3c5a76;
+	background-color:#021325;
+	background-image: url("http://medias.inrees.com/img/graphics/v4/background.jpg");
+	background-repeat: no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+}
+
+img {
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+hr {
+	margin-top: 2px;
+	display:block;
+	clear:both;
+	height:0;
+	margin-bottom: 4px
+}
+
+/* Polices de caractères dynamiques */
+@font-face {
+    font-family: 'INREESwebFontregular';
+    src: url('http://www.inrees.com/includes/css/fonts/myfontweb-webfont.eot');
+    src: url('http://www.inrees.com/includes/css/fonts/myfontweb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.inrees.com/includes/css/fonts/myfontweb-webfont.woff') format('woff'),
+         url('http://www.inrees.com/includes/css/fonts/myfontweb-webfont.ttf') format('truetype'),
+         url('http://www.inrees.com/includes/css/fonts/myfontweb-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'INREESwebFontBold';
+    src: url('http://www.inrees.com/includes/css/fonts/newstyle3.eot');
+    src: url('http://www.inrees.com/includes/css/fonts/newstyle3.eot?#iefix') format('embedded-opentype'),
+         url('http://www.inrees.com/includes/css/fonts/newstyle3.woff') format('woff'),
+         url('http://www.inrees.com/includes/css/fonts/newstyle3.ttf') format('truetype'),
+         url('http://www.inrees.com/includes/css/fonts/newstyle3.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'INREESwebFontCond';
+    src: url('http://www.inrees.com/includes/css/fonts/pocond-webfont.eot');
+    src: url('http://www.inrees.com/includes/css/fonts/pocond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.inrees.com/includes/css/fonts/pocond-webfont.woff') format('woff'),
+         url('http://www.inrees.com/includes/css/fonts/pocond-webfont.ttf') format('truetype'),
+         url('http://www.inrees.com/includes/css/fonts/pocond-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* toolBar*/
+#toolBar {
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+	background: url('http://medias.inrees.com/img/graphics/v5/toolbar.jpg');
+	height: 32px;
+	border-bottom: 2px solid #259de4;
+}
+
+.toolBarFrame {
+	margin:0px auto;
+	padding:0px;
+	width:990px;
+}
+
+.toolBarContent {
+	width: 990px;
+	margin: 0px auto;
+	top: 10px;
+	float: left;
+	text-align: left;
+	color: #4e7294;
+	position: relative;
+}
+
+.toolBarContent a {
+	font-weight: bold;
+}
+
+/* Errors and ok notes */
+.loginNote {
+	width: 120px;
+	height: 16px;
+	padding: 6px;
+	border: 1px solid green;
+	color: green;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.loginError {
+	width: 120px;
+	height: 16px;
+	padding: 6px;
+	border: 1px solid red;
+	color: red;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+/* Blocs principaux */
+.container {
+	margin:0px auto;
+	padding:0px;
+	width:990px;
+}
+
+.home {
+	background-color:#fbfbfc;
+	width:990px;
+	float:left;
+}
+
+.both {
+	float:left;padding-top:35px;width:990px; border-top:1px solid #CBD6DD;background-color:#F3F5F7;
+}
+
+.bothLike {
+	float:left;padding-top:15px;width:990px;margin-top:50px;margin-left:20px;margin-right:20px;
+}
+
+/* Thèmes du magazine */
+.magThemes {
+	font-family:INREESwebFontregular;
+	font-size:12px;
+	color:#7387ac;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+.citation {
+	padding:20px;
+	font-style: italic;
+	color:#427EA3;
+	font-weight: bold;
+}
+
+div.citation:before {
+	content:'« ';
+}
+
+div.citation:after {
+	content:' »';
+}
+
+blockquote {
+	color:#3D86B2;
+	font-family: Arial, Helvetica;font-size: 13px;
+	font-style:italic;
+	text-align:left;
+	margin:0px;padding:5px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+blockquote:before {
+	content:url("http://medias.inrees.com/img/graphics/blockquote.jpg");
+}
+
+blockquote:after {
+	content:' »';
+	color:#b3d1e2;
+	font-family: Arial, Helvetica;
+	font-weight:bold;
+}
+
+h1.title {
+	color:#1277d7;
+	font-size:25px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+h1 {
+	color:#1277d7;
+	font-size:22px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+h2 {
+	font-family: 'INREESwebFontregular';
+	font-size:20px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+.tith2 {
+	font-size:18px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+h3 {
+	font-size:13px;
+	font-weight:bold;
+	margin:0px;
+	margin-top:1px;
+	margin-bottom:3px;
+	padding:0px;
+}
+
+h3.sq {
+	padding:4px;
+	font-size:15px;
+	margin:0px;
+	margin-bottom:9px;
+	background-color:#1277d7;
+	color:white;
+}
+
+h4 {
+	color:#1277d7;
+	font-size:19px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+h5 {
+	color:#1277d7;
+	font-size:13px;
+	font-weight:bold;
+	margin:0px;
+	margin-top:1px;
+	margin-bottom:3px;
+	padding:0px;
+}
+
+h6 {
+	color:white;
+	font-size:13px;
+	font-weight:bold;
+	margin:0px;
+	margin-top:2px;
+	background-color:#b3c2cd;
+	padding:5px;
+}
+
+input{
+	border:1px solid #afc1cd;
+	color:#5e7990; padding:2px;
+}
+
+input:hover{
+	border: 1px solid #8198aa;
+}
+
+input:focus{
+	border: 1px solid #8198aa;
+	background-color:#fbfbfc;
+}
+
+
+input.text{ width: 250px; margin-bottom: 5px; margin:5px;margin-left:0px;margin-right:0px; }
+input.textdl{ width: 115px; margin-bottom: 5px; margin:5px;margin-left:0px;margin-right:10px; }
+input.textdr{ width: 115px; margin-bottom: 5px; margin:5px;margin-left:0px;margin-right:0px; }
+.adresse{ width: 250px; margin-bottom: 5px;outline-width:0;margin-top:5px; }
+.selects{ width: 250px; margin-bottom: 5px; outline-width:0; margin-top:5px; padding:3px; border:1px solid #afc1cd; }
+
+a.button_form:link { background:#0099FF; padding:10px; text-transform:uppercase; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; font-size:14px; color:white; }
+
+a.button_form:visited { background:#0099FF; padding:10px; text-transform:uppercase; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; font-size:14px; color:white; }
+
+a.button_form:hover { background:#0099FF; padding:10px; text-transform:uppercase; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; font-size:14px; color:white; }
+
+a.button_form:active { background:#0099FF; padding:10px; text-transform:uppercase; -moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; font-size:14px; color:white; font-weight:bold; }
+
+.submit{ cursor:pointer;background:#0099FF; margin-top:5px;margin-bottom:5px; padding:8px;padding-right:12px;padding-left:12px;font-size:14px; font-weight:bold; color:white; }
+
+
+
+.profilgform { float:left;width:123px;text-align:right;padding-top:8px;padding-right:10px;height:24px; }
+.profildform { float:left;width:313px;height:34px; }
+
+.profildgform { float:left;width:175px;text-align:right;padding-top:8px;padding-right:10px;height:24px; }
+.profilddform { float:left;width:405px;height:34px; }
+
+
+.error { color:#c83f68; }
+
+
+.slabull { background-color:#1277d7; display:inline; padding:5px; }
+.slabull:hover { background-color:#cc0056; }
+
+
+.slabull2 { background-color:#1277d7; display:inline; padding:1px; }
+.slabull2:hover { background-color:#cc0056; }
+
+
+
+a:link {
+color:#1277d7;
+text-decoration:none;
+}
+a:visited {
+color:#1277d7;
+text-decoration:none;
+}
+a:hover {
+color:#cc0056; /*cc0056*1277d7*/
+text-decoration:underline;
+}
+a:active {
+color:#cc0056;
+text-decoration:underline;
+}
+
+a.nounder:link {
+text-decoration:none;
+}
+a.nounder:visited {
+text-decoration:none;
+}
+a.nounder:hover {
+text-decoration:underline;
+}
+a.nounder:active {
+text-decoration:underline;
+}
+
+
+
+
+        a.onetitlewhite2{ color: #7387ac; text-decoration:none; }
+        a.onetitlewhite2:hover{ color: #7387ac; text-decoration:underline; }
+
+
+
+
+.redb { color:#cc0056; }
+
+
+
+.socialconnexFB {
+margin-bottom:10px;float:left;width:99px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg');
+}
+.socialconnexFB:hover {
+margin-bottom:10px;float:left;width:99px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg'); background-position:0px 42px;
+}
+
+.socialconnexTW {
+margin-bottom:10px;float:left;width:90px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg'); background-position:189px 0;
+}
+.socialconnexTW:hover {
+margin-bottom:10px;float:left;width:90px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg'); background-position:189px 42px;
+}
+
+.socialconnexRSS {
+margin-bottom:10px;float:left;width:101px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg'); background-position:99px 0;
+}
+.socialconnexRSS:hover {
+margin-bottom:10px;float:left;width:101px;height:42px; background:url('http://medias.inrees.com/img/graphics/connex.jpg'); background-position:99px 42px;
+}
+
+.submitn{ margin-top:5px;margin-bottom:5px; background: url('http://medias.inrees.com/img/graphics/button-newsletter.jpg'); background-repeat:repeat-x; border: 1px none #296399;color: #becad9;cursor: pointer;padding:8px;padding-right:12px;padding-left:12px;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:11px;
+width:90px;border:0;cursor: pointer; margin-bottom:0px;margin-right:0px;margin-left:0px; outline:none;padding:5px;padding-top:4px;padding-bottom:5px;
+/*-moz-border-radius: 0px 3px 3px 0px; -webkit-border-radius: 0px 3px 3px 0px; border-radius: 0px 3px 3px 0px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; */ 
+}
+
+
+
+
+
+a.normlink:link {
+color:#1277d7;
+text-decoration:underline;
+}
+a.normlink:visited {
+color:#1277d7;
+text-decoration:underline;
+}
+a.normlink:hover {
+color:#1277d7; /*cc0056*/
+text-decoration:underline;
+}
+a.normlink:active {
+color:#1277d7;
+text-decoration:underline;
+}
+
+
+a.onetitlewhite:link {
+color:#ececec;
+text-decoration:none;
+}
+a.onetitlewhite:visited {
+color:#ececec;
+text-decoration:none;
+}
+a.onetitlewhite:hover {
+color:#fff;
+text-decoration:underline;
+}
+a.onetitlewhite:active {
+color:#fff;
+text-decoration:underline;
+}
+
+
+a.onetitlewhiteno:link {
+color:#ececec;
+text-decoration:none;
+}
+a.onetitlewhiteno:visited {
+color:#ececec;
+text-decoration:none;
+}
+a.onetitlewhiteno:hover {
+color:#fff;
+text-decoration:none;
+}
+a.onetitlewhiteno:active {
+color:#fff;
+text-decoration:none;
+}
+
+
+
+a.amenu:link {
+color:white;
+text-decoration:none;
+}
+a.amenu:visited {
+color:white;
+text-decoration:none;
+}
+a.amenu:hover {
+color:#1277d7; /*cc0056*/
+text-decoration:underline;
+}
+a.amenu:active {
+color:#1277d7;
+text-decoration:underline;
+}
+
+
+a.linkgray:link {
+color:#7387ac;
+text-decoration:none;
+}
+a.linkgray:visited {
+color:#7387ac;
+text-decoration:none;
+}
+a.linkgray:hover {
+color:#7387ac;
+text-decoration:underline;
+}
+a.linkgray:active {
+color:#7387ac;
+text-decoration:underline;
+}
+
+
+
+
+.greenlight {
+color:#a9c7c9;
+}
+
+a.green:link {
+color:#28959e;
+text-decoration:none;
+}
+a.green:visited {
+color:#28959e;
+text-decoration:none;
+}
+a.green:hover {
+color:#C83F68;
+text-decoration:underline;
+}
+a.green:active {
+color:#C83F68;
+text-decoration:underline;
+}
+
+
+
+a.bg:link {
+color:#c2d3f8;
+text-decoration:none;
+}
+a.bg:visited {
+color:#c2d3f8;
+text-decoration:none;
+}
+a.bg:hover {
+color:#fff;
+text-decoration:underline;
+}
+a.bg:active {
+color:#fff;
+text-decoration:underline;
+}
+
+
+a.noline:link {
+color:#1277d7;
+text-decoration:none;
+}
+a.noline:visited {
+color:#1277d7;
+text-decoration:none;
+}
+a.noline:hover {
+color:#C83F68;
+text-decoration:none;
+}
+a.noline:active {
+color:#C83F68;
+text-decoration:none;
+}
+
+a.darkblue:link {
+color:#1d4665;
+text-decoration:none;
+}
+a.darkblue:visited {
+color:#1d4665;
+text-decoration:none;
+}
+a.darkblue:hover {
+color:#1d4665;
+text-decoration:underline;
+}
+a.darkblue:active {
+color:#1d4665;
+text-decoration:none;
+}
+
+
+
+
+
+
+a.darkbluegrey:link {
+color:#3c5a76;
+text-decoration:none;
+}
+a.darkbluegrey:visited {
+color:#3c5a76;
+text-decoration:none;
+}
+a.darkbluegrey:hover {
+color:#3c5a76;
+text-decoration:underline;
+}
+a.darkbluegrey:active {
+color:#3c5a76;
+text-decoration:none;
+}
+
+a.darkbluegrey2:link {
+color:#61769d;
+text-decoration:none;
+}
+a.darkbluegrey2:visited {
+color:#61769d;
+text-decoration:none;
+}
+a.darkbluegrey2:hover {
+color:#61769d;
+text-decoration:underline;
+}
+a.darkbluegrey2:active {
+color:#61769d;
+text-decoration:none;
+}
+
+
+
+
+a.white:link {
+color:white;
+text-decoration:none;
+}
+a.white:visited {
+color:white;
+text-decoration:none;
+}
+a.white:hover {
+color:white;
+text-decoration:none;
+}
+a.white:active {
+color:white;
+text-decoration:none;
+}
+
+.block { display:block; }
+.tops { margin-top:6px; }
+
+.container { margin:0px auto; padding:0px; width:990px; }
+.home { background-color:#fbfbfc; width:990px; float:left; }
+.ban { margin:0px auto; padding:0px; width:990px; height:78px; /*background: url('http://medias.inrees.com/img/graphics/v4/ban.jpg') no-repeat;*/ }
+.banpub { margin:0px auto; padding:0px; width:990px; height:140px;height:0px;background-color:#00CC00;  /*background: url('http://medias.inrees.com/img/graphics/v4/ban.jpg') no-repeat;*/ }
+.menu { margin:0px auto; padding:0px; width:990px; background-color:#0033CC; }
+.both { float:left;padding-top:35px;width:990px; border-top:1px solid #CBD6DD;background-color:#F3F5F7; }
+
+.bothLike { float:left;padding-top:15px;width:990px;margin-top:50px;margin-left:20px;margin-right:20px; }
+
+.reperer { background-color:#063253; /*padding:10px;padding-left:20px;*/width:960px;font-size:11px;font-weight:bold; color:#afc1cd; padding:10px;padding-left:20px; height:14px;
+background:url('http://medias.inrees.com/img/graphics/v4/repererc.jpg'); }
+.repererb { background-color:#2380bd; padding:10px;padding-left:20px;padding-bottom:15px;float:left;width:959px;font-size:10px; color:#afc1cd;background: url('http://medias.inrees.com/img/graphics/v4/menu_sh.jpg') no-repeat; background-position:top left; }
+
+
+.repmgr { background-color:#063253; width:960px; color:#96b5ca; padding:10px;padding-left:20px; height:70px; background:url('http://medias.inrees.com/img/graphics/v4/repererbanb.jpg'); }
+.mgr { margin-right:15px; }
+ 
+
+.mdiv { float:left;width:990px; }
+
+
+.homeflash { width:630px; height:290px;background-color:#0066FF; }
+.linkhomeflash { display:block;width:630px; height:290px; }
+.homeflashsh { width:630px;height:26px; background:url('http://medias.inrees.com/img/graphics/v4/home_sh.jpg'); }
+
+/*.mg { float:left;width:145px;margin-bottom:25px;margin-top:25px;margin-right:10px; }
+.mg li { border-bottom:1px solid #cbd6dd;padding-top:5px;padding-bottom:5px;padding-left:4px;padding-right:4px;font-size:11px; }
+.mg li:hover { background-color:#F3F5F7; }
+.mgfixed { position:fixed;width:145px; }
+
+.mcenter { float:left;width:475px;margin-top:5px; }*/
+
+.mbig { float:left;width:630px;padding-right:12px;padding-left:20px;/*background-color:#CCFF99;*/ }  /* 662px */
+.mbigtot { float:left;width:950px;padding-right:20px;padding-left:20px;/*background-color:#CCFF99;*/ }  /* 662px */
+.mbigred { width:450px; }
+.mbigmmenu { width:180px;float:left; background-color:#CCCCCC; }
+
+.mbonus { color:#51657c; float:left;padding-left:14px;width:300px;padding-right:14px;padding-top:14px;padding-bottom:14px;background-color:#f3f5f7; } /* d7dce4      background-color:#e7ecee; 328px */
+.mbonusno { float:left;padding-left:13px;width:300px;padding-right:15px;padding-top:14px;padding-bottom:14px; } /* d7dce4      background-color:#e7ecee; 328px */
+
+.mbigR { float:right;width:790px;padding-right:12px;padding-left:20px;padding-top:25px; background: url('http://medias.inrees.com/img/graphics/v4/menu_sh.jpg') no-repeat; }
+.mbonusL { float:left;padding-left:8px;width:150px;padding-right:10px;padding-top:25px; }
+
+.mbonusL li { padding:4px;padding-top:4px;padding-bottom:4px; }
+.selected { background-color:white; }
+
+.mtotal { width:990px;float:left; background: url('http://medias.inrees.com/img/graphics/v4/menu_sh.jpg') no-repeat; }
+
+
+
+.classement { float:left;width:300px;padding:5px;padding-top:7px;padding-bottom:7px; }
+
+
+
+.tone { font-family: font-size:16px; }
+.tone2 { font-family:Arial; font-size:13px; font-weight:bold; }
+.tone3 { font-family:Arial; font-size:14px; font-weight:bold; }
+
+
+
+
+
+input.textn{ width: 200px;border: 1px solid #afc1cd; border-right:0px;margin-bottom: 5px; padding:5px; margin:5px;margin-left:0px;margin-right:0px; color:#677b91; font-size:11px;
+width:193px;padding-left:3px; margin-top:0px; margin-right:0px; padding-bottom:5px;
+/*-moz-border-radius: 3px 0px 0px 3px; -webkit-border-radius: 3px 0px 0px 3px; border-radius: 3px 0px 0px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 0px;*/ 
+/*background:#ffffff url(http://www.inrees.com/img/form/field-bg-bottom.gif) repeat-x bottom left;*/  }
+
+
+
+
+
+.titleL { float:left; }
+.titleR { float:left; border-left:1px solid #CBD6DD; margin-left:35px;padding-left:15px; }
+
+/*.mbonusmini { float:left;width:240px;padding-right:20px;padding-left:18px; border-left:2px solid #CBD6DD; } 280px */
+
+
+.pubsp { float:left;padding-left:14px;width:300px;padding-right:14px;padding-top:14px;background-color:#d7dce4; height:276px; } /* d7dce4      background-color:#e7ecee; 328px */
+
+.pub { width:300px; padding-bottom:6px;/* margin-bottom:18px;*/  }
+.mapub { background-color:#000000; width:300px;height:250px; cursor:pointer; }
+.pub_participer { padding:3px; }
+
+.bonusbloc { margin-bottom:20px; }
+
+
+.bonusdiv { padding:10px;/* background-color:#fbfbfc;*/ /*border:1px solid #CBD6DD;*/ width:280px; }
+
+.bonusdivlarge { background-color:#f3f5f7; padding:14px;  }
+.bonusdivint { padding:10px; background-color:#fbfbfc; }
+
+
+
+
+.padtitle { padding-top:7px;padding-bottom:3px; }
+.padtitlemin { padding-top:3px;padding-bottom:2px; }
+
+
+.bananim { width:630px; background-color:#990000; height:280px; float:left; margin-bottom:15px; }
+.bananimcenter { width:475px; background-color:#990000; height:210px; float:left; margin-bottom:15px; }
+
+
+.thblocsL { width:147px;float:left;margin-right:14px;margin-bottom:5px; }
+.thblocsM { width:147px;float:left;margin-right:14px;margin-bottom:5px; }
+.thblocsR { width:147px;float:left;margin-bottom:5px; }
+
+
+.thblocsLboth { width:180px;float:left;margin-right:14px;margin-bottom:5px; }
+.thblocsMboth { width:180px;float:left;margin-right:14px;margin-bottom:5px; }
+.thblocsRboth { width:180px;float:left;margin-bottom:5px; }
+
+
+
+.twoL { width:305px;float:left;margin-right:10px; text-align:left; }
+.twoR { width:305px;float:left;margin-left:10px; text-align:left; }
+
+.twoLrs { width:310px;float:left;margin-right:5px; text-align:left; }
+.twoRrs { width:310px;float:left;margin-left:5px; text-align:left; }
+
+
+.twoLmin { width:290px;float:left;margin-right:5px; text-align:left; }
+.twoRmin { width:290px;float:left;margin-left:5px; text-align:left; }
+
+
+
+.twobL { width:375px;float:left;margin-right:15px; }
+.twobR { width:375px;float:left;margin-right:15px; }
+
+.dtL { width:355px;float:left;margin-right:10px; }
+.dtR { width:255px;float:left;margin-left:10px; }
+
+
+
+
+.labelvign { background-color:#1277d7; position:absolute; margin-top:90px; margin-left:3px; padding:4px; }
+.labelvign:hover { background-color:#cc0056; }
+
+.labelvignmin { background-color:#1277d7; position:absolute; margin-top:45px; margin-left:3px; padding:4px; }
+.labelvignmin:hover { background-color:#cc0056; }
+
+.labelvigngreen { background-color:#28959e; position:absolute; margin-top:90px; margin-left:3px; padding:4px; }
+.labelvigngreen:hover { background-color:#cc0056; }
+
+
+.labelvignbig { background-color:#1277d7; position:absolute; margin-top:60px; margin-left:3px; padding:4px; }
+.labelvignbig:hover { background-color:#cc0056; }
+
+
+.label { background-color:#1277d7; margin-left:2px; padding:4px; margin-right:2px; }
+.label:hover { background-color:#C83F68; }
+
+
+
+
+
+.select { background-color:#F3F5F7; font-weight:bold; }
+
+.mini { font-size:11px; }
+.big { font-size:16px; }
+.big13 { font-size:13px; }
+.tbig { font-size:13px; }
+.xbig { font-size:18px; }
+.blue { color:#1277d7; }
+.gray { color:#7387ac; }
+.graydark { color:#3c5a76; }
+.tdark { color:#1d4665; }
+
+hr{ margin-top: 2px;display:block;clear:both;height:0;margin-bottom: 4px;
+color: #a8b6c9;
+background-color: #a8b6c9;
+height: 1px;
+border: 0;}
+
+.clear { clear:both; }
+.justify { text-align:justify; }
+
+.bulle30 { margin-bottom:30px; }
+.bulle20 { margin-bottom:20px; }
+.bulle14 { margin-bottom:14px; }
+.bulle10 { margin-bottom:10px; }
+.bulle4 { margin-bottom:4px; }
+
+.bulleleft40 { margin-left:40px; }
+
+.bulletop20 { margin-top:20px; }
+.bulletop10 { margin-top:10px; }
+.bulletop6 { margin-top:6px; }
+
+
+.bulle { border:1px solid #CBD6DD;margin-top:10px;background-color:#F3F5F7; }
+.bulledouble { margin-bottom:35px; }
+.bulledoublemini { margin-bottom:20px; }
+.bulledoubleminibis { margin-bottom:10px; }
+.bulledoubleminib { margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid #a6c5d4; }
+
+.magplus { background-color:#d7dce4;float:left;width:134px;margin-right:15px;padding:8px; }
+.magplustitle { width:124px;padding:2px; background-color:white; color:black; font-weight:bold; }
+
+
+.button { margin:4px;height:30px;float:left;cursor: pointer;background-color:#fbfbfc; }
+.button:hover { background-color:gray; }
+
+.button_gray { background:url('http://medias.inrees.com/img/graphics/button_gray.jpg'); float:left; color:#47525f; font-size:12px; font-weight:bold; text-decoration:none; margin:5px; margin-left:0px;margin-right:5px; }
+.button_gray span { border:1px solid #cccccc; padding-left:8px;padding-right:8px; padding-top:4px;padding-bottom:4px;display:block; }
+.button_gray span:hover { border:1px solid #b0b9c3; }
+.button_gray span:active { border:1px solid #b0b9c3; background-color:#ececec; }
+
+.button_blue { background:url('http://medias.inrees.com/img/graphics/button_blue.jpg'); float:left; color:white; font-size:12px; font-weight:bold; text-decoration:none; margin:5px; }
+.button_blue span { border:1px solid #0a6fbb; padding-left:8px;padding-right:8px; padding-top:4px;padding-bottom:4px;display:block; }
+.button_blue span:hover { border:1px solid #074462; }
+.button_blue span:active { border:1px solid #074462; background-color:#126ab1; }
+
+
+.button_plus span:before {
+content:"+ ";
+}
+.button_question span:before {
+content:"?? ";
+}
+
+
+
+.shadowevents { width:181px;height:15px; background-color:#ff0000; background:url(http://medias.inrees.com/img/graphics/v4/img-events-ombre.png); }
+.shadowbooks { float:left;background-color:red;height:10px;width:181px; background:url(http://medias.inrees.com/img/graphics/v4/img-livres-ombre.png); background-repeat:no-repeat; background-position:left; margin-bottom:5px; }
+.shadowbooksa { float:left;background-color:red;height:10px;width:100px; background:url(http://medias.inrees.com/img/graphics/v4/img-livres-ombre.png); background-repeat:no-repeat; background-position:left; margin-bottom:5px; }
+
+.shadow135 { float:left;background-color:red;height:10px;width:135px; background:url(http://medias.inrees.com/img/graphics/v4/img-ombre135.png); background-repeat:no-repeat; background-position:left; margin-bottom:5px; }
+
+
+.programm2 { 
+width:610px;float:left;
+background-color:#F3F5F7;
+border-top:1px solid #a8b6c9;
+border-bottom:1px solid #a8b6c9;
+padding:10px;
+color:#51657c;
+margin-bottom:20px; }
+
+
+
+.proghop {
+border-bottom:1px solid #CBD6DD;
+float:left;
+padding-bottom:5px;
+padding-top:9px;
+}
+.proghop:hover {
+background-color:#F3F5F7;
+border-bottom:1px solid #a6c5d4;
+}
+
+
+
+
+.borderbot {
+border-bottom:1px solid #CBD6DD;
+float:left;
+}
+
+.bordertop {
+border-top:1px solid #CBD6DD;
+float:left;
+}
+
+.borderall {
+border:1px solid #CBD6DD;
+}
+
+.prognohop {
+border-bottom:1px solid #CBD6DD;
+float:left;
+padding-bottom:15px;
+padding-top:9px;
+margin-top:4px;
+}
+
+.prognohopmag {
+border-bottom:1px solid #CBD6DD;
+float:left;
+padding-bottom:15px;
+}
+
+.prognohopmagb {
+background-color:#F3F5F7;
+border-bottom:1px solid #CBD6DD;
+float:left;
+padding-bottom:15px;
+padding-top:5px;
+}
+
+.proghopto {
+background-color:#F3F5F7;
+border:1px solid #a8b6c9;
+padding:5px;
+}
+
+
+
+.borderhop {
+padding:3px;border:1px solid #b9bec2; background-color:#FFFFFF;
+}
+.borderhop:hover {
+border:1px solid #1277d7;
+}
+
+
+.border { border:1px solid #CBD6DD; padding:3px; background-color:#FFFFFF; }
+
+
+.borderhopmin {
+padding:2px;border:1px solid #b9bec2; background-color:#FFFFFF;
+}
+.borderhopmin:hover {
+border:1px solid #1277d7;
+}
+
+
+
+
+.photo {
+padding:3px;border:1px solid #b9bec2;
+}
+
+.photor {
+padding:4px;border:1px solid #b9bec2;margin-left:14px;margin-bottom:10px;
+}
+
+.photoL {
+padding:4px;border:1px solid #b9bec2;margin-right:14px;margin-bottom:10px;
+}
+
+.photoL2 {
+padding:4px;/*border:1px solid #b9bec2;*/margin-right:12px;margin-bottom:8px;
+}
+
+.photoL3 {
+/*padding:2px;border:1px solid #b9bec2;*/margin-right:10px;margin-bottom:6px;
+}
+
+
+
+.ulmenu {
+margin-top:10px;
+}
+.ulmenu li {
+/*margin-bottom:12px;*/
+}
+.linkmenu {
+margin:0px; padding:5px; margin-bottom:2px; padding-left:8px; padding-right:8px; width:212px;display:block;
+}
+.linkmenu:hover {
+background-color:#1277d7;
+color:white;
+text-decoration:none;
+}
+
+.linkmenub {
+margin:0px; padding:7px; margin-bottom:5px; width:299px;display:block; height:60px;
+}
+.linkmenub:hover {
+background-color:#1277d7;
+color:white;
+text-decoration:none;
+}
+
+
+
+a.menusp {
+color:#b9bec2;
+font-weight:bold;
+}
+a.menusp:hover {
+color:#cc0056;
+text-decoration:underline;
+}
+
+.menudl { float:left;width:228px;padding-left:20px;padding-top:20px; }
+.menudlmin { float:left;width:148px;padding-left:20px;padding-top:20px; }
+.menudr { float:left;width:328px;padding-left:20px;padding-top:20px; }
+.tmenu { margin-bottom:10px; border-bottom:1px solid #b9bec2; padding-bottom:5px; }
+.tmenub { margin-bottom:10px; border-bottom:1px solid #b9bec2; padding-bottom:5px;margin-right:15px; }
+
+
+
+/*-moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; */
+
+.choice { background-color:#CCCCCC;padding:5px;margin-bottom:15px; }
+.choice ul { margin:5px; }
+.choice li { display:inline;padding:5px;background-color:#FFFFFF;margin-right:5px;
+-moz-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; }
+
+.choicelistav { background-color:#f3f5f7;padding:5px; margin-bottom:15px; float:left; width:620px; }
+.choicelist { border:1px solid #CBD6DD; font-size:11px; margin-right:15px; width:192px; background-color:#FFFFFF; float:left; }
+.choicelist ul { display:block; padding:5px; }
+.choicelist div { overflow: scroll; height:290px; width:190px; position: absolute;z-index: 3; border:1px solid #CBD6DD;border-top:0px solid; background-color:#FFFFFF; }
+.choicelist li { padding:3px;padding-left:4px;padding-right:4px; }
+.choicelist li:hover { background-color:#f3f5f7; }
+
+.selected { font-weight: bold; }
+
+
+
+
+.magentabloc {
+background:#e6ebf7;padding:15px;color:#51657c;
+}
+
+li.tblue { list-style-type:disc; margin:0;padding:2px;;padding-left:5px; color:#1277d7; margin-left:20px;}
+li.tbluebis { list-style-type:disc; margin:0;padding:2px;;padding-left:5px; color:#51657c; margin-left:20px;}
+
+li.tblue span { color:#1d4665;}
+
+
+.registrera {
+background-color:#e6ebf7;padding:15px;width:540px; color:#51657c;
+}
+
+
+
+
+
+.submit{ margin-top:5px;margin-bottom:5px; background: url('http://medias.inrees.com/img/graphics/button-back.jpg') 0px 0px; background-repeat:repeat-x; border: 1px none #296399;color: white;cursor: pointer;padding:8px;padding-right:12px;padding-left:12px;text-font:11px;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px;
+
+ }
+.submit:hover{ background: url('http://medias.inrees.com/img/graphics/button-back.jpg') 0px 0px; background-repeat:repeat-x; border: 1px none #07223b;color: white;cursor: pointer;padding:8px;padding-right:12px;padding-left:12px;text-font:12px;font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px;
+ }

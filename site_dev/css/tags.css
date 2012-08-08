@@ -1,0 +1,36 @@
+.ui-autocomplete {
+	border: 1px solid #333333;
+	width: 250px;
+}
+
+.tagDiv {
+	padding: 6px !important;
+	border: 1px solid #666666 !important;
+	background-color: #EEEEEE !important;
+	border-radius: 5px !important;
+	min-width: 40px !important;
+	margin: 2px !important;
+	text-align: center !important;
+	float: left !important;
+	overflow: hidden !important;
+}
+
+.tagIconDiv {
+	margin-top: 5px;
+}
+
+.tagIconDiv a {
+	cursor: pointer;
+}
+
+a.tagLink {
+	cursor: pointer;
+	display: block;
+	width: 244px;
+	height: 100%;
+}
+
+a.tagLink:hover {
+	text-decoration: none !important;
+	background-color: pink;
+}

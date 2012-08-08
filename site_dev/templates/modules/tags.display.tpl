@@ -1,0 +1,1 @@
+<div style="width: 260px;" id="tagsField"></div>

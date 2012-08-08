@@ -1,0 +1,1 @@
+<input style="width:250px;" name="tagsInput" type="text" id="tagsInput" />

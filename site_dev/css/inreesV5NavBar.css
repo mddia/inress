@@ -1,0 +1,94 @@
+/* Bannière Nav */
+
+.ban {
+	margin:0px auto;
+	width:990px;
+	height:78px;
+	padding-top: 26px !important;
+}
+
+.ban .navBar{
+	background-image: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg');
+	width: 680px;
+	height: 95px;
+	margin-top: 8px;
+	float: left;
+}
+
+.ban .navBar div {
+	height: 95px;
+	float: left;
+}
+
+.ban .navBar div a {
+	display:block;
+	height:70px;
+	margin-top: 10px;
+}
+
+.ban .navBar div a:hover {
+	cursor: pointer;
+}
+
+.ban .navBar .INREES {
+	width: 240px;
+}
+
+.ban .navBar div.INREES a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') 0px -105px no-repeat;
+}
+
+.ban .navBar .events {
+	width: 90px;
+}
+
+.ban .navBar div.events a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') -240px -105px no-repeat;
+}
+
+.ban .navBar .videos{
+	width: 60px;
+}
+
+.ban .navBar div.videos a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') -330px -105px no-repeat;
+}
+
+.ban .navBar .community{
+	width: 100px;
+}
+
+.ban .navBar div.community a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') -390px -105px no-repeat;
+}
+
+.ban .navBar .shop{
+	width: 75px;
+}
+
+.ban .navBar div.shop a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') -490px -105px no-repeat;
+}
+
+.ban .navBar .inexplore{
+	width: 88px;
+}
+
+.ban .navBar div.inexplore a:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_menu.jpg') -565px -105px no-repeat;
+}
+
+/* Pub ban droite */
+
+.ban .banPub {
+	width: 310px;
+	height: 95px;
+	margin-top: 8px;
+	float: left;
+	background-image: url('http://medias.inrees.com/img/graphics/v5/ban_pub.jpg');
+}
+
+.ban .banPub:hover {
+	background: url('http://medias.inrees.com/img/graphics/v5/ban_pub.jpg') 0px -95px no-repeat;
+	cursor: pointer;
+}
